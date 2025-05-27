@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-github-vm"
+  name     = "rg-github-adrian"
   location = "East US"
 }
 
