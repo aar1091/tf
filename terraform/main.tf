@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-adrian"
+  name     = "rg-adrian-test"
   location = "East US 2"
 }
 
