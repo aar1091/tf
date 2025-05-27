@@ -3,8 +3,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-github-adrian"
-  location = "East US"
+  name     = "rg-adrian"
+  location = "East US 2"
 }
 
 resource "azurerm_virtual_network" "vnet" {
